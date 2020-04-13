@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LSWTreeView.h"
+#import "LSWTreeViewDataModel.h"
 
 FOUNDATION_EXPORT double LSWTreeViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSWTreeViewVersionString[];
