@@ -17,7 +17,7 @@
         _parentId = params[@"parentId"] ? params[@"parentId"] : @"-1";
         _currentId = params[@"currentId"];
         _name = params[@"name"];
-        _expand = NO;
+        _expand = params[@"expend"] ? params[@"expend"] : NO;
         _children = params[@"children"];
         _level = params[@"level"] ? [params[@"level"] integerValue] : 1;
     }
