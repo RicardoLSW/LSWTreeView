@@ -1,0 +1,6 @@
+framework module LSWTreeView {
+  umbrella header "LSWTreeView-umbrella.h"
+
+  export *
+  module * { export * }
+}
