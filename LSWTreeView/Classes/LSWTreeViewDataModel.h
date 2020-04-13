@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *parentId;
 @property (nonatomic, strong) NSString *currentId;
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, assign) bool expand;
+@property (nonatomic, assign) BOOL expand;
 @property (nonatomic, strong) NSArray *children;
 @property (nonatomic) NSUInteger level;
 
