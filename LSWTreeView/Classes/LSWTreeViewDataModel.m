@@ -18,7 +18,7 @@
         _currentId = params[@"currentId"];
         _name = params[@"name"];
         NSNumber *num = params[@"expend"];
-        _expand = [num boolValue] ? [num boolValue] : NO;
+        _expand = params[@"expend"] ? [num boolValue] : NO;
         _children = params[@"children"];
         _level = params[@"level"] ? [params[@"level"] integerValue] : 1;
     }
