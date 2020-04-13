@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        _parentId = params[@"parentId"] ? params[@"parentId"] : @-1;
+        _parentId = params[@"parentId"] ? params[@"parentId"] : @"-1";
         _currentId = params[@"currentId"];
         _name = params[@"name"];
         _expand = NO;
