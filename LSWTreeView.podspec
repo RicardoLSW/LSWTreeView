@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LSWTreeView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LSWTreeView.'
+  s.summary          = 'iOS端的树形UI控件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ricardo/LSWTreeView'
+  s.homepage         = 'https://github.com/RicardoLSW/LSWTreeView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ricardo' => 'qq1043009478@icloud.com' }
-  s.source           = { :git => 'https://github.com/Ricardo/LSWTreeView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RicardoLSW/LSWTreeView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LSWTreeView' => ['LSWTreeView/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'LSWTreeView/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

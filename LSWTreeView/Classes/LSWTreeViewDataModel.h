@@ -2,8 +2,8 @@
 //  LSWTreeViewDataModel.h
 //  chl-exhibit-ios
 //
-//  Created by 骆顺旺 on 2020/4/10.
-//  Copyright © 2020 骆顺旺. All rights reserved.
+//  Created by Ricardo on 2020/4/10.
+//  Copyright © 2020 Ricardo. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  LSWTreeView.m
 //  chl-exhibit-ios
 //
-//  Created by 骆顺旺 on 2020/4/10.
-//  Copyright © 2020 骆顺旺. All rights reserved.
+//  Created by Ricardo on 2020/4/10.
+//  Copyright © 2020 Ricardo. All rights reserved.
 //
 
 #import "LSWTreeView.h"
@@ -30,7 +30,6 @@ static NSString *const cellId = @"cellId";
         self.delegate = self;
         self.dataSource = self;
         self.count = 0;
-//        self.backgroundColor = APP_COLOR;
     }
     return self;
 }
@@ -61,9 +60,6 @@ static NSString *const cellId = @"cellId";
     }
     [name appendString:model.name];
     cell.textLabel.text = name;
-//    cell.backgroundColor = APP_COLOR;
-//    cell.textLabel.textColor = TEXT_COLOR;
-//    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
